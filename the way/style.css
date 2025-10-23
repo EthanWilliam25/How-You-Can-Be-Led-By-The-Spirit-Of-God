@@ -8,10 +8,21 @@ body.dark-mode {
   background-color: black;
   color: white;
 }
+/* Link colors for dark mode */
+body.dark-mode a {
+  color: #4da6ff;
+  text-decoration: none;
+  font-weight: 500;
+  text-shadow: 0 0 2px #4da6ff;
+}
 
+body.dark-mode a:hover {
+  color: #80c1ff;
+  text-decoration: underline;
+}
 button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
+  cursor: pointer;
 }
