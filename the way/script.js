@@ -7,6 +7,6 @@ function toggleMode() {
   document.body.classList.toggle("dark-mode");
   localStorage.setItem(
     "mode",
-    document.body.classList.contains("dark-mode") ? "dark" : "light"
-  );
+    document.body.classList.contains("dark-mode") ? "dark" : "light"
+  );
 }
